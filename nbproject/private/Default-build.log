@@ -1,0 +1,7 @@
+gcc -g -std=gnu99 -Wall -Wmissing-prototypes -Wpointer-arith -Wendif-labels -Wmissing-format-attribute -Wformat-security -fno-strict-aliasing -fwrapv -std=gnu99 -fpic  -I. -I/usr/include/libxml2 -I/usr/local/pgsql-10.1/include/server -I/usr/lib/jvm/java-7-oracle/include -I/usr/lib/jvm/java-7-oracle/include/linux -c -o pg_jinx.o pg_jinx.c 
+In file included from pg_jinx.c:2:0:
+./pg_jinx.h:30:17: fatal error: jni.h: No such file or directory
+ #include <jni.h>
+                 ^
+compilation terminated.
+gmake: *** [pg_jinx.o] Error 1

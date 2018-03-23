@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <in>datumToObject.c</in>
+      <in>init_jni.c</in>
+      <in>init_jvm.c</in>
+      <in>jbridge.c</in>
+      <in>jni_utils.c</in>
+      <in>objectToDatum.c</in>
+      <in>pg_jinx.c</in>
+      <in>pg_jinx_fdw.c</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-g -std=gnu99 -std=gnu99 -fpic"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>.</pElem>
+              <pElem>/usr/include/libxml2</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="datumToObject.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/pgsql-9.3.22/include/server</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include/linux</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="init_jni.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/pgsql-9.3.22/include/server</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include/linux</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="init_jvm.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/pgsql-9.3.22/include/server</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include/linux</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="jbridge.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/pgsql-9.3.22/include/server</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include/linux</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="jni_utils.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/pgsql-9.3.22/include/server</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include/linux</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="objectToDatum.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/pgsql-9.3.22/include/server</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include/linux</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="pg_jinx.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/pgsql-9.6.8/include/server</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include/linux</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="pg_jinx_fdw.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="0">
+          <incDir>
+            <pElem>/usr/local/pgsql-9.6.8/include/server</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include</pElem>
+            <pElem>/usr/java/jdk1.8.0_162/include/linux</pElem>
+          </incDir>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
