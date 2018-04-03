@@ -1,0 +1,25 @@
+called: gcc
+	/home/postgres/.netbeans/remote/172.16.123.81/serdars-macbook-pro.local-MacOSX-x86_64/Users/serdar.mutlu/NetBeansProjects/pg_jinx-original
+	gcc
+	-g
+	-std=gnu99
+	-Wall
+	-Wmissing-prototypes
+	-Wpointer-arith
+	-Wendif-labels
+	-Wmissing-format-attribute
+	-Wformat-security
+	-fno-strict-aliasing
+	-fwrapv
+	-std=gnu99
+	-fpic
+	-I.
+	-I/usr/include/libxml2
+	-I/usr/local/pgsql-10.1/include/server
+	-I/usr/lib/jvm/java-7-oracle/include
+	-I/usr/lib/jvm/java-7-oracle/include/linux
+	-c
+	-o
+	pg_jinx.o
+	pg_jinx.c
+
